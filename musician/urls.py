@@ -8,7 +8,7 @@ router = routers.DefaultRouter()
 # router.register("manage", MusicianView)
 
 router.register(
-    'musician', MusicianViewSet, basename='manage'
+    "musician", MusicianViewSet, basename="manage"
 )
 
 urlpatterns = [
